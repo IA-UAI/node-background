@@ -25,7 +25,7 @@ const App = () => {
       options={{
         background: {
           color: {
-            value: "#0d47a1",
+            value: "#ffffff",
           },
         },
         fpsLimit: 120,
@@ -53,14 +53,14 @@ const App = () => {
         },
         particles: {
           color: {
-            value: "#ffffff",
+            value: "#808080",
           },
           links: {
-            color: "#ffffff",
+            color: "#36baf4",
             distance: 150,
             enable: true,
-            opacity: 0.5,
-            width: 1,
+            opacity: 1,
+            width: 3,
           },
           collisions: {
             enable: false,
@@ -83,13 +83,13 @@ const App = () => {
             value: 80,
           },
           opacity: {
-            value: 0.5,
+            value: 0.8,
           },
           shape: {
             type: "circle",
           },
           size: {
-            value: { min: 1, max: 5 },
+            value: { min: 3, max: 8 },
           },
         },
         detectRetina: true,
