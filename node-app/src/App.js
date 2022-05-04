@@ -53,17 +53,17 @@ const App = () => {
         },
         particles: {
           color: {
-            value: "#808080",
+            value: ["#36baf4"],
           },
           links: {
-            color: "#36baf4",
+            color: "#444857",
             distance: 150,
             enable: true,
             opacity: 1,
             width: 3,
           },
           collisions: {
-            enable: false,
+            enable: true,
           },
           move: {
             direction: "none",
@@ -72,7 +72,7 @@ const App = () => {
               default: "bounce",
             },
             random: false,
-            speed: 3,
+            speed: 1,
             straight: false,
           },
           number: {
